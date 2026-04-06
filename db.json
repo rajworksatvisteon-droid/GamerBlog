@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "ProGamer99",
+      "email": "player1@example.com",
+      "password": "password123"
+    },
+    {
+      "username": "raj",
+      "email": "raj@gmail.com",
+      "role": "gamer",
+      "id": "l4F-4Vfpy1g"
+    }
+  ]
+}
