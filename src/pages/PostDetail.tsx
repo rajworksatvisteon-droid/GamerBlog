@@ -14,7 +14,7 @@ export const PostDetail = () => {
   useEffect(() => {
     if (!slug) return;
     const id = extractIdFromSlug(slug);
-    const foundPost = posts.find((p) => p.id.startsWith(id));
+    const foundPost = posts.find((p) => p.id === id);
     if (foundPost) {
       setPost(foundPost);
     }
@@ -63,9 +63,7 @@ export const PostDetail = () => {
           />
         )}
 
-        {/* YouTube Thumbnail */}
         {post.youtubeUrl && (() => {
-          // Extract YouTube video ID
           const match = post.youtubeUrl.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|v\/|shorts\/))([\w-]{11})/);
           const videoId = match ? match[1] : null;
           return videoId ? (

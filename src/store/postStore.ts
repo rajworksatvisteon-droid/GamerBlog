@@ -7,6 +7,7 @@ interface PostStore {
   posts: Post[];
   getPosts: () => Post[];
   addPost: (post: Post) => void;
+  updatePost: (id: string, updatedPost: Post) => void;
   deletePost: (id: string) => void;
   hydrate: () => void;
 }
@@ -19,19 +20,35 @@ export const usePostStore = create<PostStore>((set, get) => ({
     set({ posts: updated });
     localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
   },
+  updatePost: (id, updatedPost) => {
+    const updated = get().posts.map((p) => (p.id === id ? updatedPost : p));
+    set({ posts: updated });
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+  },
   deletePost: (id) => {
     const updated = get().posts.filter((p) => p.id !== id);
     set({ posts: updated });
     localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
   },
-  hydrate: () => {
+  hydrate: async () => {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored) {
       try {
         set({ posts: JSON.parse(stored) });
+        return;
       } catch (e) {
-        set({ posts: [] });
       }
+    }
+    try {
+      const response = await fetch('/posts.json');
+      if (response.ok) {
+        const defaultPosts = await response.json();
+        set({ posts: defaultPosts });
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(defaultPosts));
+      }
+    } catch (error) {
+      console.warn('Failed to load default posts:', error);
+      set({ posts: [] });
     }
   },
 }));

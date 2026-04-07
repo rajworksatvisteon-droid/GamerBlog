@@ -1,0 +1,152 @@
+[
+  {
+    "id": "post-1",
+    "title": "Elden Ring Review: A Masterpiece of Open-World Design",
+    "content": "After 120 hours in the Lands Between, I can confidently say Elden Ring delivers on every promise. The seamless integration of FromSoftware's signature challenging gameplay with an expansive open world creates something truly special. The boss fights are memorable, the exploration rewarding, and the story cryptic yet engaging. This is gaming at its finest.",
+    "author": "GameMaster92",
+    "category": "RPG",
+    "createdAt": "2026-03-15",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=E3Huy2cdih0"
+  },
+  {
+    "id": "post-2", 
+    "title": "Valorant Agent Tier List - Episode 8 Act 2",
+    "content": "With the latest balance changes, the meta has shifted significantly. Jett remains dominant in higher ranks, but Breach and Skye are making waves in the initiator role. Here's my updated tier list after climbing to Immortal this season. Remember, agent synergy matters more than individual picks.",
+    "author": "TacticalShooter",
+    "category": "FPS",
+    "createdAt": "2026-03-20",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=f_H6FHwAaSk"
+  },
+  {
+    "id": "post-3",
+    "title": "Why Hollow Knight is Still the Best Metroidvania",
+    "content": "Three years later, Hollow Knight continues to set the standard for indie games. The hand-drawn art style, haunting soundtrack, and tight gameplay mechanics create an atmosphere that's both beautiful and melancholic. Silksong can't come soon enough, but this masterpiece will tide us over.",
+    "author": "IndieExplorer",
+    "category": "Indie",
+    "createdAt": "2026-03-22",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=UAO2urG23S4"
+  },
+  {
+    "id": "post-4",
+    "title": "Final Fantasy XIV Endwalker: The Perfect Conclusion",
+    "content": "After a decade-long journey, Endwalker delivers an emotionally satisfying conclusion to the Hydaelyn-Zodiark saga. The music, storytelling, and character development reach new heights. If you've been on the fence about MMORPGs, this expansion makes FFXIV essential gaming.",
+    "author": "EorzeaVeteran",  
+    "category": "MMO",
+    "createdAt": "2026-03-25",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=zTTtd6bnhFs"
+  },
+  {
+    "id": "post-5",
+    "title": "Building the Perfect Gaming Setup on a Budget",
+    "content": "You don't need to break the bank for a great gaming experience. This guide covers the essentials: a solid 1080p monitor, mechanical keyboard alternatives, and how to optimize your existing hardware. Performance per dollar is king, and these tips will maximize your investment.",
+    "author": "BudgetGamer",
+    "category": "FPS", 
+    "createdAt": "2026-03-28",
+    "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1OcYAhYkLdY"
+  },
+  {
+    "id": "post-6",
+    "title": "The Witcher 3 Still Holds Up in 2026",
+    "content": "Replaying this RPG masterpiece with the next-gen update reminded me why it's considered one of the greatest games ever made. The side quests have more depth than most games' main stories, and the moral choices still hit hard. Geralt's journey through the Northern Kingdoms remains unmatched.",
+    "author": "RPGConnoisseur",
+    "category": "RPG", 
+    "createdAt": "2026-03-30",
+    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=c0i88t0Kacs"
+  },
+  {
+    "id": "post-7",
+    "title": "Pizza Tower: The Indie Platformer We Didn't Know We Needed", 
+    "content": "This chaotic, Wario Land-inspired platformer is pure joy. The animation is fluid, the soundtrack slaps, and the level design encourages both speed and exploration. It's proof that indie developers can still innovate in crowded genres. Absolutely worth your time and money.",
+    "author": "PlatformingPro",
+    "category": "Indie",
+    "createdAt": "2026-04-01", 
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_cB2LBz6nzM"
+  },
+  {
+    "id": "post-8",
+    "title": "Counter-Strike 2: What Changed and What Stayed",
+    "content": "The transition to Source 2 brings subtle but important improvements. Smoke grenades feel more dynamic, the new rating system is controversial but fair, and the visual upgrades are noticeable without being distracting. Classic CS gameplay remains intact, which is exactly what the community wanted.",
+    "author": "ESportsAnalyst",
+    "category": "FPS",
+    "createdAt": "2026-04-02",
+    "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=600&q=80", 
+    "youtubeUrl": "https://www.youtube.com/watch?v=EdDOKJRwAWw"
+  },
+  {
+    "id": "post-9",
+    "title": "World of Warcraft: Dragonflight Brings Back the Magic",
+    "content": "After the missteps of recent expansions, Dragonflight feels like a return to form. Dragon riding is genuinely fun, the talent trees offer meaningful choices, and the endgame content strikes a good balance between casual and hardcore. Azeroth feels alive again.",
+    "author": "WoWRaider",
+    "category": "MMO",
+    "createdAt": "2026-04-03",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=jSJr3dXZfcg"
+  },
+  {
+    "id": "post-10",
+    "title": "Baldur's Gate 3: The New Gold Standard for RPGs",
+    "content": "Larian Studios has crafted something extraordinary. Every conversation matters, every choice has consequences, and the freedom to approach problems creatively is unmatched. This isn't just a great CRPG—it's a testament to what's possible when developers are given time and resources.",
+    "author": "TabletopGamer",
+    "category": "RPG", 
+    "createdAt": "2026-04-04",
+    "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1T22wNvoNiU"
+  },
+  {
+    "id": "post-11",
+    "title": "Cuphead: The DLC We've Been Waiting For",
+    "content": "The Delicious Last Course adds new bosses, a new character in Ms. Chalice, and the same punishing difficulty that made the original special. The 1930s animation style remains gorgeous, and the new levels are creative without feeling unfair. Worth the wait.",
+    "author": "RetroGamer",
+    "category": "Indie", 
+    "createdAt": "2026-04-05",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=D9yTOjHs1aE"
+  },
+  {
+    "id": "post-12",
+    "title": "Overwatch 2: Season 9 Meta Breakdown",
+    "content": "The latest balance patch shook up the meta significantly. Tracer and Genji are back in the spotlight, while barrier tanks struggle to find their place. Support players are loving the new Lifeweaver changes. Here's how to adapt your gameplay for the current season.",
+    "author": "OverwatchCoach",
+    "category": "FPS",
+    "createdAt": "2026-04-06", 
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=pwFu8kEsUW4"
+  },
+  {
+    "id": "post-13",
+    "title": "Lost Ark: Is It Worth Playing in 2026?",
+    "content": "Despite early controversies around pay-to-win mechanics, Lost Ark has evolved into a solid MMORPG. The recent updates addressed many community concerns, and the endgame content is genuinely engaging. If you bounced off at launch, now might be the time to give it another shot.",
+    "author": "MMOReviewer",
+    "category": "MMO",
+    "createdAt": "2026-04-07",
+    "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=4_NkZITjkBw"
+  },
+  {
+    "id": "post-14", 
+    "title": "Cyberpunk 2077: From Disaster to Redemption",
+    "content": "The 2.0 update and Phantom Liberty expansion have transformed Cyberpunk into the game we were promised at launch. Night City feels alive, the combat is satisfying, and the story DLC is genuinely excellent. Sometimes patience pays off in gaming.",
+    "author": "CyberPunkFan",
+    "category": "RPG",
+    "createdAt": "2026-04-08",
+    "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=BO8lX3hDU30"
+  },
+  {
+    "id": "post-15",
+    "title": "Dave the Diver: The Cozy Game That Surprised Everyone",
+    "content": "What started as a simple diving adventure evolved into something much more ambitious. The blend of underwater exploration, restaurant management, and storytelling creates a uniquely relaxing experience. This indie gem deserves all the praise it's receiving.",
+    "author": "CozyGamer",
+    "category": "Indie",
+    "createdAt": "2026-04-09", 
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=600&q=80",
+    "youtubeUrl": "https://www.youtube.com/watch?v=17GNt7p-w-E"
+  }
+]
