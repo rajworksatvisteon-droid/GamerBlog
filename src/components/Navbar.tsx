@@ -22,8 +22,7 @@ export const Navbar = () => {
           
           {isAuthenticated ? (
             <>
-              <Link to="/create" className="hover:text-purple-400">Create Post</Link>
-              <Link to="/profile" className="hover:text-purple-400">Profile</Link>
+              <Link to="/create" className="hover:text-purple-400">Create Post</Link>              <Link to="/posts" className="hover:text-purple-400">My Posts</Link>              <Link to="/profile" className="hover:text-purple-400">Profile</Link>
               <button 
                 onClick={() => setShowLogoutModal(true)} // Open pop-up
                 className="bg-red-600 px-4 py-1.5 rounded font-medium hover:bg-red-700 transition-all"

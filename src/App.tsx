@@ -6,6 +6,7 @@ import { Login } from './pages/Login';
 import { Signup } from './pages/Signup';
 import { CreatePost } from './pages/CreatePost';
 import { Profile } from './pages/Profile';
+import { Posts } from './pages/Posts';
 import { PostDetail } from './pages/PostDetail';
 import { ProtectedRoute } from './components/ProtectedRoute';
 import WhatsNew from './pages/WhatsNew';
@@ -42,6 +43,14 @@ function App() {
                 element={
                   <ProtectedRoute>
                     <Profile />
+                  </ProtectedRoute>
+                } 
+              />
+              <Route 
+                path="/posts" 
+                element={
+                  <ProtectedRoute>
+                    <Posts />
                   </ProtectedRoute>
                 } 
               />
