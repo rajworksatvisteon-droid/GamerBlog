@@ -1,11 +1,7 @@
 
 import { useAuth } from '../context/AuthContext';
-import { usePostStore } from '../store/postStore';
-
 export const Profile = () => {
   const { user } = useAuth();
-  const posts = usePostStore((state) => state.posts);
-  const myPosts = posts.filter(p => p.author === user?.username);
 
   return (
     <div className="py-10">

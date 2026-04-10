@@ -1,10 +1,13 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
 export const Navbar = () => {
   const { logout, isAuthenticated } = useAuth();
   const [showLogoutModal, setShowLogoutModal] = useState(false);
+  const location = useLocation();
+
+  const isActive = (path: string) => location.pathname === path;
 
   const handleConfirmLogout = () => {
     logout();
@@ -17,12 +20,22 @@ export const Navbar = () => {
         <Link to="/" className="text-2xl font-bold tracking-tighter text-purple-400 italic">GAMER BLOG</Link>
         
         <div className="flex items-center space-x-6">
-          <Link to="/" className="hover:text-purple-400 transition-colors">Home</Link>
-          <Link to="/whats-new" className="hover:text-purple-400 transition-colors">What's New</Link>
+          <Link to="/" className={`transition-colors ${
+            isActive('/') ? 'text-purple-400 font-semibold' : 'hover:text-purple-400'
+          }`}>Home</Link>
+          <Link to="/whats-new" className={`transition-colors ${
+            isActive('/whats-new') ? 'text-purple-400 font-semibold' : 'hover:text-purple-400'
+          }`}>What's New</Link>
           
           {isAuthenticated ? (
             <>
-              <Link to="/create" className="hover:text-purple-400">Create Post</Link>              <Link to="/posts" className="hover:text-purple-400">My Posts</Link>              <Link to="/profile" className="hover:text-purple-400">Profile</Link>
+              <Link to="/create" className={`transition-colors ${
+                isActive('/create') ? 'text-purple-400 font-semibold' : 'hover:text-purple-400'
+              }`}>Create Post</Link>              <Link to="/posts" className={`transition-colors ${
+                isActive('/posts') ? 'text-purple-400 font-semibold' : 'hover:text-purple-400'
+              }`}>My Posts</Link>              <Link to="/profile" className={`transition-colors ${
+                isActive('/profile') ? 'text-purple-400 font-semibold' : 'hover:text-purple-400'
+              }`}>Profile</Link>
               <button 
                 onClick={() => setShowLogoutModal(true)} // Open pop-up
                 className="bg-red-600 px-4 py-1.5 rounded font-medium hover:bg-red-700 transition-all"
@@ -32,8 +45,12 @@ export const Navbar = () => {
             </>
           ) : (
             <div className="flex items-center space-x-4">
-              <Link to="/login" className="hover:text-purple-400">Login</Link>
-              <Link to="/signup" className="bg-purple-600 px-4 py-1.5 rounded font-bold hover:bg-purple-500">Join Now</Link>
+              <Link to="/login" className={`transition-colors ${
+                isActive('/login') ? 'text-purple-400 font-semibold' : 'hover:text-purple-400'
+              }`}>Login</Link>
+              <Link to="/signup" className={`px-4 py-1.5 rounded font-bold transition-all ${
+                isActive('/signup') ? 'bg-purple-500 text-white' : 'bg-purple-600 hover:bg-purple-500 text-white'
+              }`}>Join Now</Link>
             </div>
           )}
         </div>
